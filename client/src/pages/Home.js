@@ -319,8 +319,8 @@ export const Home = () => {
     //   arrowLeft.style.color = 'white';
     // };
     
-    
-    axios.get('http://localhost:5000/robots')
+    // http://localhost:5000/
+    axios.get('robots')
       .then(res => {
         const robots = res.data;
         console.log(robots);
