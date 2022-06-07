@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd9d7595.css",
+    "main.js": "/static/js/main.d6bd6bf2.js",
+    "static/media/pexels2.jpg": "/static/media/pexels2.b5adeacba221bdf01757.jpg",
+    "static/media/andy-kelly.jpg": "/static/media/andy-kelly.939f2b7461cdc9e28f06.jpg",
+    "static/media/education.png": "/static/media/education.3dbd1e9c3498285b7559.png",
+    "static/media/3d-printer.jpeg": "/static/media/3d-printer.ed59e8c720f7875f47ed.jpeg",
+    "static/media/drones.jpeg": "/static/media/drones.c13f0d579165d570600c.jpeg",
+    "static/media/arms.webp": "/static/media/arms.748f384d5eed60e20e26.webp",
+    "index.html": "/index.html",
+    "main.bd9d7595.css.map": "/static/css/main.bd9d7595.css.map",
+    "main.d6bd6bf2.js.map": "/static/js/main.d6bd6bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd9d7595.css",
+    "static/js/main.d6bd6bf2.js"
+  ]
+}
