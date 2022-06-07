@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 const uri = process.env.ATLAS_URI;
 
 mongoose.connect(uri)
-  .then(() => console.log('Successfully connected to MONGODB database'))
+  .then(() => console.log('Successfully connected to MONGODB!'))
   .catch(err => console.log(err))
 ;
 
@@ -30,5 +30,5 @@ const robotsRouter = require('./routes/robots');
 app.use('/robots', robotsRouter);
 
 app.listen(port, () => {
-    console.log(`Server is running on Port: ${port}`);
+    console.log(`Server is running on Port: ${port}!`);
 });
