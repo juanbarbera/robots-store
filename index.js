@@ -20,7 +20,7 @@ mongoose.connect(uri)
 ;
 
 const robotsRouter = require('./routes/robots');
-app.use('api/robots', robotsRouter);
+app.use('/api/robots', robotsRouter);
 
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
   app.use(express.static('client/build'));
