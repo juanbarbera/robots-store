@@ -319,11 +319,10 @@ export const Home = () => {
     //   arrowLeft.style.color = 'white';
     // };
     
-    // http://localhost:5000
+    // http://localhost:5000 --> unnecessary for heroku setup
     axios.get('/api/robots')
       .then(res => {
         const robots = res.data;
-        console.log(robots);
         setRobots(robots);
       })
       .catch(err => {

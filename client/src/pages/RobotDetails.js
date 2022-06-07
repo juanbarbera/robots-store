@@ -371,7 +371,7 @@ export const RobotDetails = () => {
 
     const id = window.location.href.split("/").reverse()[0];
 
-    axios.get(`http://localhost:5000/robots/${id}`)
+    axios.get(`/api/robots/${id}`)
       .then(res => {
         const robot = res.data;
         setRobot(robot);

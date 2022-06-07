@@ -118,7 +118,7 @@ export const SellForm = () => {
       fifthHighlight: highlight5,
       overview: overview
     };   
-    axios.post('http://localhost:5000/robots/add', robot)
+    axios.post('/api/robots/add', robot)
       .then(alert('successfuly sent robot to database!'))
       .catch(err => console.log(`Error: ${err}`));
 

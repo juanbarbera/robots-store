@@ -136,7 +136,7 @@ export const Products = () => {
       setIsMobile(window.innerWidth <= 820 ? true : false);
     })
 
-    axios.get('http://localhost:5000/robots')
+    axios.get('/api/robots')
       .then(res => {
         const robots = res.data;
         setRobots(robots)
