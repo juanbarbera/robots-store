@@ -21,9 +21,9 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import RotateRightIcon from '@mui/icons-material/RotateRight';
 
 import andyKelly from '../assets/images/andy-kelly.jpg';
-import pexels2 from '../assets/images/pexels2.jpg';
-import arms from '../assets/images/arms.webp';
-import threeDPrinters from '../assets/images/3d-printer.jpeg';
+import pexels2 from '../assets/images/pexels.jpg';
+import arms from '../assets/images/arms.jpg';
+import threeDPrinters from '../assets/images/3d-printer.jpg';
 import drones from '../assets/images/drones.jpeg';
 import education from '../assets/images/education.png';
 
@@ -245,7 +245,7 @@ const Category = styled.div`
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('${props => props.url}');
   background-size: cover;
-  background-position: 50% 35%;
+  background-position: 50% 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,7 +259,7 @@ const Category = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('${props => props.url}');
     background-size: cover;
     background-position: 50% 50%;
-    transform: scale(1.02, 1.05);
+    transform: scale(1.02, 1.02);
     box-shadow: 0 0 30px rgba(0,0,0,0.5), 0 0 45px rgba(0,0,0,0.3);
   }
 `;
