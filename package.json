@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd client && npm run build",
-    "install": "cd frontend && npm install",
+    "install": "cd client && npm install",
     "server": "nodemon index",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node index.js",
     "heroku-postbuild": "cd build && npm install && npm run build"
+  },
+  "engines": {
+    "node": "17.6.0",
+    "npm": "8.5.1"
   },
   "keywords": [],
   "author": "",
