@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd9d7595.css",
-    "main.js": "/static/js/main.d6bd6bf2.js",
+    "main.js": "/static/js/main.131c73a3.js",
     "static/media/pexels2.jpg": "/static/media/pexels2.b5adeacba221bdf01757.jpg",
     "static/media/andy-kelly.jpg": "/static/media/andy-kelly.939f2b7461cdc9e28f06.jpg",
     "static/media/education.png": "/static/media/education.3dbd1e9c3498285b7559.png",
@@ -10,10 +10,10 @@
     "static/media/arms.webp": "/static/media/arms.748f384d5eed60e20e26.webp",
     "index.html": "/index.html",
     "main.bd9d7595.css.map": "/static/css/main.bd9d7595.css.map",
-    "main.d6bd6bf2.js.map": "/static/js/main.d6bd6bf2.js.map"
+    "main.131c73a3.js.map": "/static/js/main.131c73a3.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9d7595.css",
-    "static/js/main.d6bd6bf2.js"
+    "static/js/main.131c73a3.js"
   ]
 }

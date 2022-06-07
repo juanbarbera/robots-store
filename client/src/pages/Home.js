@@ -319,7 +319,7 @@ export const Home = () => {
     //   arrowLeft.style.color = 'white';
     // };
     
-    // http://localhost:5000/
+    // http://localhost:5000
     axios.get('/api/robots')
       .then(res => {
         const robots = res.data;

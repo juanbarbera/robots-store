@@ -1,12 +1,12 @@
-const path = require('path');
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
-require('dotenv').config();
+
+const path = require('path');
 
 const app = express();
-
 const port = process.env.PORT || 5000;
 
 app.use(cors());
@@ -29,6 +29,4 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
   });
 }
 
-app.listen(port, () => {
-    console.log(`Server is running on Port: ${port}!`);
-});
+app.listen(port, () => console.log(`Server is running on Port: ${port}!`));
