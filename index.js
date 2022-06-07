@@ -19,15 +19,15 @@ mongoose.connect(uri)
   .catch(err => console.log(err))
 ;
 
+const robotsRouter = require('./routes/robots');
+app.use('api/robots', robotsRouter);
+
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
   app.use(express.static('client/build'));
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
   });
 }
-
-const robotsRouter = require('./routes/robots');
-app.use('/robots', robotsRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on Port: ${port}!`);

@@ -320,7 +320,7 @@ export const Home = () => {
     // };
     
     // http://localhost:5000/
-    axios.get('robots')
+    axios.get('/api/robots')
       .then(res => {
         const robots = res.data;
         console.log(robots);
