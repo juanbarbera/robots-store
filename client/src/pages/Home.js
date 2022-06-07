@@ -324,6 +324,7 @@ export const Home = () => {
     axios.get('/robots')
       .then(res => {
         const robots = res.data;
+        console.log(robots);
         setRobots(robots);
       })
       .catch(err => {
