@@ -397,7 +397,7 @@ export const RobotDetails = () => {
     }
 
     const onClickDelete = id => {
-      axios.delete(`/robots/${id}`);
+      axios.delete(`/api/robots/${id}`);
       history('/products');
   }
   
