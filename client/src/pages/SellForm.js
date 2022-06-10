@@ -105,17 +105,17 @@ export const SellForm = () => {
 
   const onClickPost = () => {
     const robot = {
-      Name: name,
+      name: name,
       manufacturer: manufacturer,
       price: price,
       isAvailable: true,
       imageUrl: imageUrl,
       quantity: quantity,
-      firstHighlight: highlight1,
-      secondHighlight: highlight2,
-      thirdHighlight: highlight3,
-      fourthHighlight: highlight4,
-      fifthHighlight: highlight5,
+      highlight1: highlight1,
+      highlight2: highlight2,
+      highlight3: highlight3,
+      highlight4: highlight4,
+      highlight5: highlight5,
       overview: overview
     };   
     axios.post('/api/robots/add', robot)
