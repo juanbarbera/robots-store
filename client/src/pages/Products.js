@@ -15,7 +15,7 @@ const Main = styled.div`
   width: 90%;
   margin: 0 auto;
   height: auto;
-  padding: 15vh 2vw 5vh 2vw;
+  padding: 15vh 0vw 6vh 0vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: row;

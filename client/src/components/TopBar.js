@@ -137,7 +137,7 @@ export const TopBar = () => {
       </CustomAppBar>
       <DrawerBody>
         <DrawerItems to="/" style={{ marginTop: '5vh'}}>HOME</DrawerItems>
-        <DrawerItems to="/products">ALL PRODUCTS</DrawerItems>
+        <DrawerItems to="/products">ALL ROBOTS</DrawerItems>
         <DrawerItems to="/sell">SELL FORM</DrawerItems>
         {/* <DrawerItems to="/cart">CART</DrawerItems> */}
       </DrawerBody>

@@ -360,12 +360,12 @@ export const Home = () => {
       <BuyOrSell>
         <Link to="/products">
           <Buy>
-            All Robots
+            See All Robots
           </Buy>
         </Link>
         <Link to="/sell">
           <Sell>
-            Sell your Robot with us
+            Sell your Robot
           </Sell>
         </Link>
       </BuyOrSell>
@@ -408,13 +408,6 @@ export const Home = () => {
         </Centralizer>
       </Products>
       }
-
-      
-
-
-      
-      
-
 
       <Categories>
         <Category onClick={() => onPathClickAlert("Robotic Arms Category")} url={arms}>*Robotic Arms*</Category>

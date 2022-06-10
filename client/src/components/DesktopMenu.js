@@ -80,7 +80,7 @@ export const DesktopMenu = () => {
           <LogoRobots>Robots</LogoRobots>
         </LogoWrapper>
         <NavItem to="/">HOME</NavItem>
-        <NavItem to="/products">PRODUCTS</NavItem>
+        <NavItem to="/products">ALL ROBOTS</NavItem>
         
         <NavItem to="/sell">SELL FORM</NavItem>
         {/* <NavItem to="/cart">CART</NavItem> */}

@@ -91,8 +91,7 @@ const TemplateTitle = styled.div`
 `;
 
 const Manufacturer = styled.div`
-  margin-top: 0;
-  margin-bottom: 5vh;
+  margin: 0 7.5vw 5vh 7.5vw;
   @media (min-width: 820px) {
     margin-bottom: 2vh;
     }
