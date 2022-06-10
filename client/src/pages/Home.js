@@ -286,8 +286,7 @@ const RotatingIcon = styled(RotateRightIcon)`
     width: 100%;
     height: 40vh;
     color: black;
-    animation: ${rotation} 2s infinite;
-    animation-timing-function: linear;
+    animation: ${rotation} 0.55s ease infinite;
   }
 `;
 
