@@ -47,7 +47,7 @@ const Centralizer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5vh 0;
+  padding: 8vh 0 10vh;
   @media (min-width: 820px) {
     height: 10vh;
   }
