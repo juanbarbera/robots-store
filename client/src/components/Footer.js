@@ -29,13 +29,14 @@ const Rights = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 1.5vh;
 `;
 
 const Flags = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3vh 0;
+  margin: 2.5vh 0 1.5vh;
 `;
 
 const Flag = styled.img`
@@ -45,12 +46,12 @@ const Flag = styled.img`
 export const Footer = () => {
   return (
     <Background>
-      <Service>
-        *components* are non-functioning demo components 
-      </Service> 
       <div>
         <SmartToyIcon />
       </div>
+      <Service>
+        *components* are non-functioning demo components 
+      </Service> 
       <Service>
         Service Time Monday to Friday: 9 AM - 4 PM CET (Central European Time) 
       </Service>      

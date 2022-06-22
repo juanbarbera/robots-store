@@ -18,6 +18,7 @@ const PathWrapper = styled.div`
   width: 100%;
   font-size: 1.05em;
   font-weight: 200;
+  padding: 3vh 7.5vw 0;
 `;
 
 const Path = styled.span`
@@ -93,7 +94,7 @@ const TemplateTitle = styled.div`
 const Manufacturer = styled.div`
   margin: 0 7.5vw 5vh 7.5vw;
   @media (min-width: 820px) {
-    margin-bottom: 2vh;
+    margin: 0 0 2vh;
     }
 `;
 
@@ -412,12 +413,10 @@ export const RobotDetails = () => {
     )}
     { robot ? (
       <>
-      <CoreBody isMobile={isMobile}>         
-      <CoreContainer>
+      <CoreBody isMobile={isMobile}> 
         <PathWrapper>
           <Path><PathHome to={"/"}>Home</PathHome></Path> {'>'} <Path onClick={() => onClickAlert('www.com.lu/category')}>*Category*</Path> {'>'} <Path onClick={() => onClickAlert('www.com.lu/category/sub-category')}>*Sub-Category*</Path> {'>'} <CurrentPath>{robot ? robot.name : 'loading...'}</CurrentPath>
         </PathWrapper>
-      </CoreContainer>
         <ImageTitleAndPanel>
           <TemplateImage url={robot.imageUrl} />
           <TitleAndHighlights>
