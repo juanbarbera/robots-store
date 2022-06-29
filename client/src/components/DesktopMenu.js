@@ -6,8 +6,7 @@ const Background = styled.div`
   height: 15vh;
   top: 0;
   left: 0;
-  /* background-color: #4D51C4; */
-  background-color: black;
+  background-color: #4D51C4;
   color: white;
   font-family: 'Anek Devanagari', sans-serif;
   font-weight: 300;
