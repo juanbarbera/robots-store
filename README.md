@@ -1,5 +1,5 @@
 # robots-store
-repository for the "Luxembourg Robots" MERN app
+Luxembourg Robots MERN App
 
 DEMO: https://robot-store.herokuapp.com/
 
